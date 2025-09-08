@@ -548,6 +548,8 @@ The [MCP Call](#mcp-call) enables workflows to interact with MCP servers that ar
 
 ###### Examples
 
+This example shows an initialization phase as the first interaction between MCP client and server. The client sends its supported version, capabilities, and implementation informationin the initialize request. The server MUST respond with its own capabilities and information including the supported version.
+
 ```yaml
 document:
   dsl: '1.0.1'
@@ -570,6 +572,8 @@ do:
             name: 'ExampleClient'
             version: '1.0.0'
 ```
+
+The following example showcases a prompts/list request by the client to retrieve available prompts from the MCP server.
 
 ```yaml
 document:
