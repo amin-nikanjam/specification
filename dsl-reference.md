@@ -531,7 +531,7 @@ do:
 
 ##### MCP Call
 
-The [MCP Call](#mcp-call) enables workflows to interact with MCP servers that used by AI agents (https://modelcontextprotocol.io/).
+The [MCP Call](#mcp-call) enables workflows to interact with MCP servers that are used by AI agents (https://modelcontextprotocol.io/).
 
 ###### Properties
 
