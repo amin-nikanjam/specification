@@ -497,7 +497,7 @@ $defs:
                   type: string
                   title: WithMCPMethod
                   description: The MCP method to send.
-                  enum: [ 'initialize, 'notifications/initialized', 'prompts/list', 'prompts/get', 'notifications/prompts/list_changed', 'resources/list', 'resources/read', 'resources/templates/list', 'notifications/resources/list_changed', 'tools/list', 'tools/call', 'notifications/tools/list_changed', 'logging/setLevel', 'notifications/message' ]
+                  enum: [ 'initialize', 'notifications/initialized', 'prompts/list', 'prompts/get', 'notifications/prompts/list_changed', 'resources/list', 'resources/read', 'resources/templates/list', 'notifications/resources/list_changed', 'tools/list', 'tools/call', 'notifications/tools/list_changed', 'logging/setLevel', 'notifications/message' ]
                 parameters:
                   oneOf:
                     - type: object
