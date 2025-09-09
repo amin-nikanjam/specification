@@ -537,7 +537,7 @@ The [MCP Call](#mcp-call) enables workflows to interact with MCP servers that ar
 
 | Name | Type | Required | Description|
 |:--|:---:|:---:|:---|
-| method | `string` | `yes` | The MCP JSON-RPC method to send.<br>*Supported values are: `initialize`, `notifications/initialized`, `prompts/list`, `prompts/get`, `notifications/prompts/list_changed`, `resources/list`, `resources/read`, `resources/templates/list`, `notifications/resources/list_changed`, `tools/list`, `tools/call`, `notifications/tools/list_changed`, `logging/setLevel`, and `notifications/message`* |
+| method | `string` | `yes` | The MCP JSON-RPC method to send.<br>*Supported values are: `initialize` , `notifications/initialized`, `prompts/list`, `prompts/get`, `notifications/prompts/list_changed`, `resources/list`, `resources/read`, `resources/templates/list`, `notifications/resources/list_changed`, `tools/list`, `tools/call`, `notifications/tools/list_changed`, `logging/setLevel`, and `notifications/message`* |
 | server | `string`\|[`endpoint`](#endpoint) | `yes` | An URI or an object that describes the MCP server to call.<br>|
 | parameters | `map` <br> `string` | `no` | The parameters for the MCP RPC method. For the `initialize` method, runtimes must default `protocolVersion` to the used version.<br>*Can be an object or a direct runtime expression.* |
 
